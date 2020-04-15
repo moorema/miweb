@@ -41,8 +41,18 @@
 /* 购物车设置 */
 .shop-cart{
     width: 120px;
+    text-align: center;
+    margin-left: 25px;
     
-    
+}
+
+
+
+/* 购物车移入效果设置 */
+.shop-cart:hover a{
+    background-color: #fff;
+    color: #ff6700;
+
 }
 
 
@@ -57,3 +67,22 @@
     float: right;
 }
 
+
+
+/* 设置中间header */
+.header{
+    height: 100px;
+    /* background-color: aqua; */
+}
+.header  .logo{
+    float: left;
+    margin-top: 22px;
+}
+.header .logo a{
+    display: block;
+    width: 55px;
+    height: 55px;
+    background-color: #ff6700;
+    background-image: url(/img/mi-logo.png);
+    background-position:center ;
+}
