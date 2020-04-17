@@ -68,7 +68,7 @@
     width: 55px;
     height: 55px;
     background-color: #ff6700;
-    background-image: url(/img/mi-logo.png);
+    background-image: url(./img/mi-logo.png);
     background-position:center ;
 }
 /* 设置中间导航条*/
