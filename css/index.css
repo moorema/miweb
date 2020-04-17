@@ -2,7 +2,7 @@
 
 
 
-/* 顶部导航条容器 */
+/* 顶部导航条容器 ------------*/
 .topbar-wrapper{
     /* 设置宽度全屏 */ 
     width: 100%;
@@ -12,24 +12,16 @@
     /* 设置背景颜色 */
     background-color:#333;
 } 
-
-
-
-
-
 /*  a的颜色字体*/
 .topbar a{
     font-size: 12px;
     color: #b0b0b0;
     display: block;
-
 }
-
 /* 超链接鼠标移入效果 */
 .topbar a:hover{
     color: forestgreen;
 }
-
 /* 分割线 */
 .topbar .line{
     color: gray;
@@ -37,31 +29,21 @@
     /* 设置分割线间距 */
     margin: 0 8px;
 }
-
 /* 购物车设置 */
 .shop-cart{
     width: 120px;
     text-align: center;
     margin-left: 25px;
-    
 }
-
-
-
 /* 购物车移入效果设置 */
 .shop-cart:hover a{
     background-color: #fff;
     color: #ff6700;
-
 }
-
-
-
 /* 设置左侧当导航栏 */
 .service,.topbar li{
     float: left;
 }
-
 /* 设置右侧导航栏 */
 .shop-cart,.user-info{
     float: right;
@@ -69,7 +51,10 @@
 
 
 
-/* 设置中间header */
+
+
+
+/* 设置中间header -----------------*/
 .header{
     height: 100px;
     /* background-color: aqua; */
@@ -86,3 +71,78 @@
     background-image: url(/img/mi-logo.png);
     background-position:center ;
 }
+/* 设置中间导航条*/
+.header .nav-wrapper{
+    float: left;
+}
+/* 设置中间导航条 */
+.header .nav-wrapper{
+    float: left;
+    margin-left: 7px;
+}
+/* 设置导航条 */
+.header .nav{
+    width: 850px;
+    background-color: aquamarine;
+    height: 100px;
+    line-height: 100px;
+    padding-left: 58px;
+}
+/* 导航条向左浮动 */
+.nav > li{
+    float: left;
+}
+/* 左侧导航条设置 */
+.left-menu{
+    width: 234px;
+    height: 460px;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0,.6 );
+    position: absolute;
+    z-index: 999;
+    /* 对应其父元素定位向左进行浮动 */
+    left: -120px;
+    line-height: 1;
+    margin: 0px;
+}
+/* 左侧导航条超链接字体设置 */
+.left-menu a{
+    display: block;
+    height: 42px;
+    line-height: 20px;
+    color: white;
+}
+/* 左侧导航箭头样式 */
+.left-menu a i{
+    float: right;
+    height: 42px;
+    color: white;
+}
+ul.left-menu li a:hover{
+    color: white;
+    background-color: tomato;
+    margin: 0px;
+}
+/* 这是左侧导航条的父元素并开启绝对定位 */
+.all-goods-wrapper{
+    position: relative;
+}
+/* 导航条字体 */
+.nav-wrapper li a{
+    font-size: 16px;
+    margin-right: 20px;
+}
+/* 搜索框容器 */
+ .search-wrapper{
+    width: 255px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: brown;
+    float: right;
+} 
+
+
+
+
+/* 左侧导航栏---------------- */
+
