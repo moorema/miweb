@@ -83,7 +83,7 @@
 /* 设置导航条 */
 .header .nav{
     width: 850px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 100px;
     line-height: 100px;
     padding-left: 58px;
@@ -95,7 +95,7 @@
 /* 左侧导航条设置 */
 .left-menu{
     width: 234px;
-    height: 460px;
+    height: 419px;
     padding: 20px 0;
     background-color: rgba(0, 0, 0,.6 );
     position: absolute;
@@ -137,12 +137,22 @@ ul.left-menu li a:hover{
     width: 255px;
     height: 50px;
     margin-top: 25px;
-    background-color: brown;
+    /* background-color: brown; */
     float: right;
 } 
 
 
 
 
-/* 左侧导航栏---------------- */
+/* banner设置---------------- */
+/* 开启相对定位为了img宽度生效 */
+.banner{
+    position: relative;
+}
+.banner .img-list li{
+    position: absolute;
+}
+.banner img{
+    width: 100%;
+}
 
